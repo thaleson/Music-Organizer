@@ -31,7 +31,7 @@ O projeto Music Organizer é uma aplicação Django que oferece funcionalidades 
    docker build -t music-organizer .
    ```
 
-2. **Execute o contêiner:**
+2. **Execute o container:**
 
    ```bash
    docker run -p 8000:8000 music-organizer
