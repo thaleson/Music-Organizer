@@ -9,11 +9,21 @@ Um aplicativo Django para organizar e gerenciar informações sobre artistas, m�
 
 O projeto Music Organizer é uma aplicação Django que oferece funcionalidades essenciais para organizar e gerenciar informações relacionadas à música. Ele inclui modelos para artistas, músicas e playlists, juntamente com endpoints de API para listar e criar esses recursos.
 
-## Funcionalidades
 
-- Listagem e criação de artistas.
-- Listagem e criação de músicas associadas a artistas.
-- Listagem e criação de playlists contendo músicas.
+## Funcionalidades Principais
+
+- **Modelos Django:**
+  - Artist: Representa informações sobre artistas musicais.
+  - Song: Armazena detalhes sobre músicas, incluindo título, artista associado e outros atributos relevantes.
+  - Playlist: Permite a organização de músicas em listas de reprodução.
+
+- **Endpoints de API:**
+  - Oferece endpoints para listar e criar recursos, facilitando a integração com outros sistemas.
+  - Exemplos de endpoints:
+    - `/api/artists/`: Lista todos os artistas.
+    - `/api/songs/`: Fornece acesso às informações das músicas.
+    - `/api/playlists/`: Permite a criação e manipulação de listas de reprodução.
+
 
 ## Pré-requisitos
 
@@ -45,6 +55,7 @@ O projeto Music Organizer é uma aplicação Django que oferece funcionalidades 
     git clone https://github.com/thaleson/MusicOrganizer.git
     cd MusicOrganizer
     ```
+ 
 
 2. **Configurar um ambiente virtual (opcional):**
 
@@ -76,6 +87,11 @@ O projeto Music Organizer é uma aplicação Django que oferece funcionalidades 
 2. **Acesse o aplicativo no seu navegador:**
 
     [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+
+
+**Acessando à API:**
+   - Acesse os endpoints da API em `http://localhost:8000/api/`.      
 
 ## Testes
 
