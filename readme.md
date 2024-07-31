@@ -2,7 +2,7 @@
 
 Um aplicativo Django para organizar e gerenciar informações sobre artistas, músicas e playlists.
 
-[![Build Status](https://travis-ci.com/seu-usuario/nome-do-repositorio.svg?branch=main)](https://travis-ci.com/seu-usuario/nome-do-repositorio)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Visão Geral
